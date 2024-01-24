@@ -1,6 +1,15 @@
 import React, { Component } from "react";
 
 export default class ChildComponent extends Component {
+  //duoc gọi khi component này được sử dụng trên DOM ( giao diện của app)
+  static getDerivedStateFromProps(newProps, currentState) {
+    console.log("getDerivedStateFromProps");
+  }
+
+  shouldComponentUpdate(newProps, newState) {
+    return false;
+  }
+
   render() {
     console.log("React Child Component");
     return (

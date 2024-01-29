@@ -17,7 +17,7 @@ function App() {
       {/* <TodoList /> */}
       {/* <LifecycleReact /> */}
       {/* <DemoHookUseState /> */}
-      <DemoHookUseEffect />
+      {/* <DemoHookUseEffect /> */}
     </div>
   );
 }
